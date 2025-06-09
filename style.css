@@ -123,3 +123,81 @@ footer {
   margin-top: 40px;
   font-size: 0.9em;
 }
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  .topo .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .topo nav ul {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  .logo {
+    height: 40px;
+  }
+
+  .banner {
+    padding: 60px 15px;
+  }
+
+  .banner h1 {
+    font-size: 2em;
+  }
+
+  .banner p {
+    font-size: 1em;
+  }
+
+  .botao-inscricao {
+    padding: 12px 25px;
+    font-size: 1em;
+  }
+
+  .sobre ul li,
+  .agenda p {
+    font-size: 1em;
+  }
+
+  .agenda table {
+    display: block;
+    overflow-x: auto;
+    width: 100%;
+  }
+
+  .agenda table thead,
+  .agenda table tbody,
+  .agenda table tr,
+  .agenda table th,
+  .agenda table td {
+    white-space: nowrap;
+  }
+
+  footer {
+    font-size: 0.8em;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner h1 {
+    font-size: 1.6em;
+  }
+
+  .banner p {
+    font-size: 0.9em;
+  }
+
+  .botao-inscricao {
+    font-size: 0.9em;
+    padding: 10px 20px;
+  }
+
+  .sobre h2,
+  .agenda h2 {
+    font-size: 1.5em;
+  }
+}
