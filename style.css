@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  background: url('assets/crie_uma_logo_para_uma_empresa_ficticia.jpeg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.topo {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 15px 0;
+}
+
+.topo .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+}
+
+.topo nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.topo nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.topo nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.banner {
+  text-align: center;
+  padding: 100px 20px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.banner h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  font-size: 1.3em;
+  margin-bottom: 30px;
+}
+
+.botao-inscricao {
+  background-color: #ff4500;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 1.1em;
+  transition: 0.3s;
+}
+
+.botao-inscricao:hover {
+  background-color: #e03e00;
+}
+
+.sobre, .agenda {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 60px 20px;
+}
+
+.sobre h2, .agenda h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.sobre ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+.sobre ul li {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.agenda table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.agenda table, th, td {
+  border: 1px solid #fff;
+}
+
+.agenda th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.85);
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 0.9em;
+}

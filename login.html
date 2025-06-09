@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Servidor de Identidade</title>
+  <link rel="stylesheet" href="login.css" />
+  <link rel="icon" type="image/png" href="assets/favicon-32x32.png" />
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <h1>Quer descobrir algo novo?</h1>
+      <p>Cadastre-se para aprender à sua maneira, evoluir suas habilidades e explorar oportunidades incríveis.</p>
+      <div class="nai-box">
+        <img src="assets/NAI-avatar.png" alt="Nai Avatar" />
+      </div>
+    </div>
+    <div class="right">
+      <img src="assets/logo nova senai.png" alt="SENAI" class="logo"/>
+      <h2>Seu próximo passo <strong>começa aqui</strong></h2>
+      <p>Acesse sua conta e continue sua jornada de aprendizado e descobertas.</p>
+      <form action="#alerta" method="get">
+        <label>E-mail ou CPF (apenas números) *</label>
+        <input type="text" name="cpf" placeholder="Digite seu e-mail ou CPF" required />
+        <label>Senha *</label>
+        <input type="password" name="senha" placeholder="Digite sua senha" required />
+        <div class="remember">
+          <label><input type="checkbox" /> Lembre-se de mim neste dispositivo!</label>
+          <a href="#">Esqueceu a senha?</a>
+        </div>
+        <button type="submit">Entrar</button>
+      </form>
+      <p class="register">Não tem uma conta? <a href="#">Clique aqui</a></p>
+    </div>
+  </div>
+
+  <!-- Alerta de phishing (inicialmente invisível) -->
+  <div id="alerta" class="alerta">
+    <div class="alerta-box">
+      <h2>⚠️ Simulação de Phishing Bem-Sucedida ⚠️</h2>
+      <p>Se este fosse um site malicioso, seus dados já teriam sido capturados por um invasor.</p>
+      <p><strong>Essa é uma simulação educativa.</strong> Nunca insira seus dados em páginas suspeitas ou desconhecidas.</p>
+      <p>Treinamento de conscientização sobre segurança digital.</p>
+      <a href="#" class="voltar">Voltar à simulação</a>
+    </div>
+  </div>
+</body>
+</html>
